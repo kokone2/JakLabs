@@ -1,0 +1,1 @@
+{"uuid":"7494d885-5b98-489d-9350-5015b236e704","name":"qaautomation.march2022.AppTestAfterRefactory.setUp","description":"","start":1648881012933,"stop":1648881025056,"children":["495b9188-8c56-4194-97b1-05b7f2254ea6"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1648881012934,"stop":1648881025055}]}
