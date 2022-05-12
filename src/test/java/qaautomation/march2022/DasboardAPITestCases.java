@@ -50,6 +50,7 @@ public class DasboardAPITestCases extends BaseAPITest {
 		System.out.println(faker.name().fullName());
 		System.out.println(faker.phoneNumber().cellPhone());
 		System.out.println(faker.name().firstName() + "@gmail.com");
+		System.out.println(faker.internet().emailAddress());
 	}
 	
 }

@@ -50,8 +50,4 @@ public class CommonPage extends BasePage {
 		js.executeScript(script);
 	}
 
-	public void switchIFrame() {
-		driver.get().switchTo().frame("ifmail");
-
-	}
 }
