@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-06T19:51:00 WIB" name="Suite" finished-at="2022-05-06T19:51:04 WIB" duration-ms="4433">
+  <suite started-at="2022-05-14T09:53:27 ICT" name="Suite" finished-at="2022-05-14T09:53:36 ICT" duration-ms="9054">
     <groups>
     </groups>
-    <test started-at="2022-05-06T19:51:00 WIB" name="Test" finished-at="2022-05-06T19:51:04 WIB" duration-ms="4433">
+    <test started-at="2022-05-14T09:53:27 ICT" name="Test" finished-at="2022-05-14T09:53:36 ICT" duration-ms="9054">
       <class name="qaautomation.march2022.APITestRefactor">
-        <test-method is-config="true" signature="login()[pri:0, instance:qaautomation.march2022.APITestRefactor@7b02e036]" started-at="2022-05-06T19:51:00 WIB" name="login" finished-at="2022-05-06T19:51:03 WIB" duration-ms="3032" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:qaautomation.march2022.APITestRefactor@1e287667]" started-at="2022-05-14T09:53:27 ICT" name="login" finished-at="2022-05-14T09:53:30 ICT" duration-ms="3115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="testDashboardAPI()[pri:0, instance:qaautomation.march2022.APITestRefactor@7b02e036]" started-at="2022-05-06T19:51:03 WIB" name="testDashboardAPI" finished-at="2022-05-06T19:51:04 WIB" duration-ms="1326" status="PASS">
+        <test-method signature="testDashboardAPI()[pri:0, instance:qaautomation.march2022.APITestRefactor@1e287667]" started-at="2022-05-14T09:53:30 ICT" name="testDashboardAPI" finished-at="2022-05-14T09:53:32 ICT" duration-ms="1541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDashboardAPI -->
+        <test-method is-config="true" signature="login()[pri:0, instance:qaautomation.march2022.APITestRefactor@1e287667]" started-at="2022-05-14T09:53:32 ICT" name="login" finished-at="2022-05-14T09:53:33 ICT" duration-ms="1257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testDashboardWithoutParam()[pri:0, instance:qaautomation.march2022.APITestRefactor@1e287667]" started-at="2022-05-14T09:53:33 ICT" name="testDashboardWithoutParam" finished-at="2022-05-14T09:53:34 ICT" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardWithoutParam -->
+        <test-method is-config="true" signature="login()[pri:0, instance:qaautomation.march2022.APITestRefactor@1e287667]" started-at="2022-05-14T09:53:34 ICT" name="login" finished-at="2022-05-14T09:53:35 ICT" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testDashboardWithoutToken()[pri:0, instance:qaautomation.march2022.APITestRefactor@1e287667]" started-at="2022-05-14T09:53:35 ICT" name="testDashboardWithoutToken" finished-at="2022-05-14T09:53:36 ICT" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardWithoutToken -->
       </class> <!-- qaautomation.march2022.APITestRefactor -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

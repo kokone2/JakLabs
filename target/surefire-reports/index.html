@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="qaautomation.march2022.APITestRefactor" class="method navigator-link" hash-for-method="testDashboardAPI">testDashboardAPI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qaautomation.march2022.APITestRefactor" class="method navigator-link" hash-for-method="testDashboardWithoutParam">testDashboardWithoutParam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qaautomation.march2022.APITestRefactor" class="method navigator-link" hash-for-method="testDashboardWithoutToken">testDashboardWithoutToken</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -130,6 +140,20 @@
                   <a name="testDashboardAPI">
                   </a> <!-- testDashboardAPI -->
                   <span class="method-name">testDashboardAPI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashboardWithoutParam">
+                  </a> <!-- testDashboardWithoutParam -->
+                  <span class="method-name">testDashboardWithoutParam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashboardWithoutToken">
+                  </a> <!-- testDashboardWithoutToken -->
+                  <span class="method-name">testDashboardWithoutToken</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,16 +210,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testDashboardAPI')
 data.setCell(0, 2, 'qaautomation.march2022.APITestRefactor')
-data.setCell(0, 3, 1326);
+data.setCell(0, 3, 1541);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testDashboardWithoutParam')
+data.setCell(1, 2, 'qaautomation.march2022.APITestRefactor')
+data.setCell(1, 3, 1061);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDashboardWithoutToken')
+data.setCell(2, 2, 'qaautomation.march2022.APITestRefactor')
+data.setCell(2, 3, 806);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -228,7 +260,23 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDashboardAPI</span>
-                <span class="method-start">3075 ms</span>
+                <span class="method-start">3149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">4696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDashboardWithoutParam</span>
+                <span class="method-start">5954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">7018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDashboardWithoutToken</span>
+                <span class="method-start">8218 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
